@@ -1,0 +1,819 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.section1 {
+  min-height: 120vh;
+  width: 100%;
+  background-image: url(images/josh-calabrese-XXpbdU_31Sg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+h1 {
+  font-size: 65px;
+  font-family: Poppins sans-serif;
+  color: #c0ac00;
+  text-align: center;
+  margin-top: 50px;
+}
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
+h2 {
+  font-size: 25px;
+  color: rgb(153, 147, 147);
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav_bar {
+  flex: 1;
+  text-align: center;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 12px 15px;
+  position: relative;
+  font-size: 15px;
+  color: rgb(83, 78, 78);
+  justify-content: space-evenly;
+}
+
+#nav_li {
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+}
+nav ul li:hover {
+  text-decoration: underline;
+  color: #c0ac00;
+  cursor: pointer;
+}
+
+.search_bar {
+  display: inline-block;
+  font-size: 20spx;
+}
+
+.search_bar input {
+  height: 25px;
+  width: 200px;
+  background-color: white;
+}
+p {
+  text-align: center;
+  display: inline-block;
+  justify-content: space-between;
+  padding: 5px 20px;
+  left: 560px;
+  position: relative;
+  font-size: 15px;
+  color: #cf8345;
+}
+
+.main {
+  align-items: center;
+  justify-content: center;
+  right: 120px;
+  position: absolute;
+  background-image: url(images/spacejoy-9M66C_w_ToM-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 550px;
+}
+
+.su_but {
+  display: inline-block;
+  text-decoration: none;
+  background: #ff5200;
+  border: 1px solid #ff5200;
+  font-size: 15px;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 30px;
+  width: 250px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+  right: 75px;
+  bottom: 35px;
+  color: lightgray;
+}
+#butt input {
+  height: 30px;
+  width: 250px;
+  background: white;
+  border: none;
+  outline: none;
+  color: #222;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  right: 75px;
+  bottom: 75px;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+#butt input::placeholder {
+  left: 10px;
+  position: relative;
+}
+
+.su_but:hover {
+  border: 1px solid black;
+  background: #e66327;
+  transition: 1s;
+}
+
+.section2 {
+  min-height: 120vh;
+  width: 100%;
+  background-image: url(images/josh-calabrese-XXpbdU_31Sg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.section2 h2 {
+  text-align: center;
+  font-size: 25px;
+  color: #ff5200;
+  top: 50px;
+  position: relative;
+}
+.para {
+  font-size: 8px;
+  text-align: center;
+  bottom: 100px;
+  position: relative;
+}
+.images_div {
+  max-height: 120vh;
+}
+.imgs1 img {
+  width: 200px;
+  height: 180px;
+  justify-content: space-between;
+  padding: 8px 12px;
+  position: relative;
+  left: 400px;
+  top: 100px;
+}
+.imgs1 {
+  display: flex;
+  flex-direction: column;
+}
+.imgs2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgs2 img {
+  width: 200px;
+  height: 180px;
+  justify-content: space-between;
+  padding: 8px 12px;
+  position: relative;
+  top: -490px;
+  left: 675px;
+}
+
+.imgs3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgs3 img {
+  width: 200px;
+  height: 180px;
+  justify-content: space-between;
+  padding: 8px 12px;
+  position: relative;
+  top: -1080px;
+  left: 950px;
+}
+
+.section3 {
+  min-height: 120vh;
+  width: 100%;
+  background-image: url(images/josh-calabrese-XXpbdU_31Sg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.b_img img {
+  width: 650px;
+  height: 800px;
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+
+.About {
+  display: flex;
+  flex-direction: column;
+}
+
+.About h2 {
+  right: 250px;
+  position: absolute;
+  top: 150px;
+  font-size: 35px;
+  color: #ff5200;
+}
+
+#renew_btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #ff5200;
+  border: 1px solid #ff5200;
+  font-size: 15px;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 30px;
+  width: 350px;
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+  right: 175px;
+  bottom: 220px;
+  color: lightgrey;
+}
+#renew_btn:hover {
+  border: 1px solid black;
+  background: #e66327;
+  transition: 1s;
+}
+#mo {
+  bottom: 350px;
+  right: -300px;
+  position: absolute;
+  color: rgb(56, 53, 53);
+  font-size: 43px;
+}
+
+.About p {
+  position: absolute;
+  bottom: 80px;
+  right: -250px;
+  font-size: 35px;
+  color: rgb(56, 53, 53);
+}
+
+.section4 {
+  min-height: 120vh;
+  width: 100%;
+  background-image: url(images/josh-calabrese-XXpbdU_31Sg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.section4 img {
+  width: 500px;
+  height: 800px;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+
+.sign_up {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign_up h2 {
+  left: 300px;
+  position: absolute;
+  top: 300px;
+  font-size: 40px;
+  color: #ff5200;
+}
+
+#mov {
+  position: absolute;
+  color: rgb(99, 90, 90);
+  font-size: 40px;
+  left: 300px;
+  top: 420px;
+}
+
+.sign_up input {
+  height: 50px;
+  width: 500px;
+  background: rgb(221, 208, 208);
+  border: none;
+  outline: none;
+  color: #222;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  opacity: 0.8;
+}
+
+.sign_up p {
+  position: absolute;
+  bottom: 80px;
+  left: 280px;
+  font-size: 14px;
+  color: rgb(56, 53, 53);
+  text-align: right;
+  font-family: "Poppins", sans-serif;
+}
+
+#upbut {
+  display: inline-block;
+  text-decoration: none;
+  background: #ff5200;
+  border: 1px solid #ff5200;
+  font-size: 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 50px;
+  width: 500px;
+  text-align: center;
+  padding: 12px;
+  position: absolute;
+  left: 300px;
+  bottom: 230px;
+  color: lightgrey;
+}
+
+#upbut:hover {
+  border: 1px solid black;
+  background: #e66327;
+  transition: 1s;
+}
+
+.section5 {
+  min-height: 120vh;
+  width: 100%;
+  background-image: url(images/josh-calabrese-XXpbdU_31Sg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.ig1 {
+  display: flex;
+  flex-direction: column;
+}
+.ig1 img {
+  width: 450px;
+  height: 350px;
+  left: 110px;
+  position: absolute;
+  bottom: 110px;
+}
+
+.ig1 a {
+  display: inline-block;
+  text-decoration: none;
+  background: #5a5756;
+  border: 1px solid #5a5756;
+  font-size: 14px;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 30px;
+  width: 450px;
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+  left: 110px;
+  bottom: 80px;
+  color: #fff;
+}
+
+.ig2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.ig2 img {
+  width: 530px;
+  height: 580px;
+  left: 570px;
+  position: absolute;
+  bottom: 200px;
+}
+
+.ig2 a {
+  display: inline-block;
+  text-decoration: none;
+  background: #5a5756;
+  border: 1px solid #5a5756;
+  font-size: 14px;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 30px;
+  width: 530px;
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+  left: 570px;
+  bottom: 170px;
+  color: #fff;
+}
+
+.ig2 p {
+  font-size: 28px;
+  left: 570px;
+  bottom: 80px;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+.ig3 img {
+  width: 350px;
+  height: 400px;
+  right: 75px;
+  position: absolute;
+  top: 85px;
+}
+.section6 {
+  min-height: 120vh;
+  width: 100%;
+  background-image: url(images/josh-calabrese-XXpbdU_31Sg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.bg_img2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#img2 {
+  width: 420px;
+  height: 270px;
+  position: absolute;
+  right: 210px;
+  top: 570px;
+  opacity: 0.9;
+  border: 5px #b6b3b2;
+  border-style: inset;
+}
+
+.bg_img2 img {
+  width: 890px;
+  height: 620px;
+  position: absolute;
+  right: 150px;
+  top: 60px;
+  border: 8px #b6b3b2;
+  border-style: inset;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info h2 {
+  position: absolute;
+  left: 100px;
+  font-size: 45px;
+  top: 180px;
+  font-family: "Poppins", sans-serif;
+  color: #e66327;
+}
+
+#move {
+  position: absolute;
+  left: 40px;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  top: 320px;
+  color: #c4bdbb;
+}
+
+.info p {
+  position: absolute;
+  font-size: 35px;
+  left: 100px;
+  bottom: 250px;
+  font-family: "Poppins", sans-serif;
+}
+
+.section7 {
+  min-height: 120vh;
+  width: 100%;
+  background-image: url(images/josh-calabrese-XXpbdU_31Sg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.main_ob {
+  background: url(images/neil-robespierre-8946QCQPz80-unsplash.jpg);
+  width: 1350px;
+  background-position: center;
+  height: 750px;
+  background-size: cover;
+  top: 100px;
+  left: 100px;
+  position: absolute;
+}
+
+.main_ob h1 {
+  font-size: 40px;
+  color: #222;
+  -webkit-text-stroke: 1px #747170;
+  text-align: center;
+  background: url(images/back.png);
+  -webkit-background-clip: text;
+  margin-top: 50px;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+
+.content {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  z-index: 999;
+  text-align: center;
+  padding: 60px 32px;
+  width: 600px;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+}
+
+.content input {
+  width: 560px;
+  height: 50px;
+  align-items: center;
+  background: rgb(221, 208, 208);
+  border: none;
+  outline: none;
+  color: #222;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  opacity: 0.8;
+  margin: 8px 5px;
+  top: 15px;
+  position: relative;
+  left: 10px;
+}
+#sin {
+  display: inline-block;
+  text-decoration: none;
+  background: #ff5200;
+  border: 1px solid #ff5200;
+  font-size: 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 50px;
+  width: 560px;
+  text-align: center;
+  padding: 12px;
+  position: relative;
+  left: 15px;
+  color: lightgrey;
+  top: 20px;
+}
+
+.content p {
+  font-size: 15px;
+  position: absolute;
+  color: #fff;
+  left: 15px;
+  bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+#sin:hover {
+  border: 1px solid black;
+  background: #e66327;
+  transition: 1s;
+}
+
+.content input::placeholder {
+  left: 10px;
+  position: relative;
+}
+
+.section8 {
+  min-height: 120vh;
+  width: 100%;
+  background-image: url(images/josh-calabrese-XXpbdU_31Sg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#i1 {
+  width: 600px;
+  height: 850px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  border: 5px #5a5756;
+  border-style: outset;
+}
+
+#i2 {
+  width: 400px;
+  height: 300px;
+  left: 640px;
+  top: 120px;
+  position: absolute;
+
+  border: 5px #5a5756;
+  border-style: outset;
+}
+
+#i3 {
+  width: 400px;
+  height: 250px;
+  right: 400px;
+  bottom: 160px;
+  position: absolute;
+  border: 5px #5a5756;
+  border-style: outset;
+}
+
+.section8 h1 {
+  font-size: 150px;
+  color: #ff5200;
+  bottom: -25px;
+  right: 460px;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  -webkit-text-stroke: 1px #f5621e;
+}
+#hrs {
+  font-size: 60px;
+  color: #ff5200;
+  bottom: 80px;
+  right: 260px;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  -webkit-text-stroke: 1px #f5621e;
+}
+
+.section8 h2 {
+  bottom: 5px;
+  position: absolute;
+  right: 150px;
+  font-size: 40px;
+  text-align: left;
+}
+
+.section9 {
+  min-height: 120vh;
+  width: 100%;
+}
+
+.main_div {
+  background: #747170;
+  width: 90%;
+  min-height: 90vh;
+  position: relative;
+  top: 165px;
+  left: 100px;
+}
+
+.About_us {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.About_us ul li {
+  list-style: none;
+  flex-direction: column;
+  padding: 12px 15px;
+  position: relative;
+  font-size: 18px;
+  color: rgb(204, 193, 193);
+  justify-content: space-evenly;
+  text-align: right;
+  top: 100px;
+  left: 100px;
+}
+.About_us .new {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 700px;
+}
+
+.About_us ul li:hover {
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+}
+
+.sign_up1 .main_para {
+  position: relative;
+  left: 400px;
+  bottom: 300px;
+  font-size: 30px;
+  color: #fff;
+  text-align: left;
+}
+
+.sign_up1 input {
+  width: 420px;
+  height: 50px;
+  align-items: center;
+  background: #fff;
+  border: none;
+  outline: none;
+  color: #222;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  opacity: 0.8;
+  margin: 8px 5px;
+  left: 420px;
+  position: absolute;
+  bottom: 300px;
+}
+
+.sign_up1 a {
+  display: inline-block;
+  text-decoration: none;
+  background: #ff5200;
+  border: 1px solid #ff5200;
+  font-size: 22px;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 50px;
+  width: 420px;
+  text-align: center;
+  padding: 12px;
+  position: absolute;
+  left: 425px;
+  bottom: 240px;
+  color: lightgrey;
+}
+.sign_up1 a:hover {
+  border: 1px solid black;
+  background: #e66327;
+  transition: 1s;
+}
+
+.sign_up1 p {
+  font-size: 10px;
+  color: #fff;
+  bottom: 180px;
+  left: 410px;
+  position: absolute;
+  text-align: left;
+}
+
+.myhome h4 {
+  font-size: 20px;
+  color: #fff;
+  right: 100px;
+  position: absolute;
+  top: 170px;
+}
+
+.myhome h1 {
+  font-size: 55px;
+  font-family: Poppins sans-serif;
+  color: #c0ac00;
+  text-align: center;
+  -webkit-text-stroke: 1px #fff;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+}
+
+.myhome h2 {
+  position: absolute;
+  right: 110px;
+  bottom: 250px;
+  color: #fff;
+  font-size: 25px;
+}
